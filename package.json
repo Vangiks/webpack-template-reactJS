@@ -1,0 +1,32 @@
+{
+  "name": "webpack-template_react",
+  "version": "1.0.0",
+  "description": "Шаблон настройки webpack для React",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env NODE_ENV=development webpack-dev-server",
+    "build": "env NODE_ENV=production webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://github.com/Vangiks",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.5.0",
+    "html-webpack-plugin": "^4.5.2",
+    "jest": "^27.3.1",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "ts-jest": "^27.0.7",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
